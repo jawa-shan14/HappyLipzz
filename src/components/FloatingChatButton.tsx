@@ -34,7 +34,7 @@ export const FloatingChatButton: React.FC<FloatingChatButtonProps> = ({
             <div className="flex items-center gap-2.5">
               <div className="w-8 h-8 rounded-full overflow-hidden border border-white/30 bg-[#2E0854] shrink-0">
                 <img
-                  src="/new-happy-logo.jpeg"
+                  src="/new-happy-logo.png"
                   alt="HappyLipzz Logo"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"

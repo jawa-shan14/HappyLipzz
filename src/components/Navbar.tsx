@@ -42,8 +42,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenAppointment, onNavigate })
     <header
       id="main-header"
       className={`sticky top-0 z-40 w-full transition-all duration-200 ${isScrolled
-          ? 'bg-white/95 backdrop-blur-md shadow-xs border-b border-slate-100 py-3'
-          : 'bg-white border-b border-slate-100/80 py-4'
+        ? 'bg-white/95 backdrop-blur-md shadow-xs border-b border-slate-100 py-3'
+        : 'bg-white border-b border-slate-100/80 py-4'
         }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -56,7 +56,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenAppointment, onNavigate })
           >
             <div className="w-10 h-10 rounded-full overflow-hidden shadow-xs border border-slate-200 group-hover:scale-105 transition-transform bg-[#2E0854] shrink-0">
               <img
-                src="/new-happy-logo.jpeg"
+                src="/new-happy-logo.png"
                 alt="HappyLipzz Sentinel of Smiles Logo"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
