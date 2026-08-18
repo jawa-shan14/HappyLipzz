@@ -1,0 +1,6 @@
+{
+  "name": "HappyLipzz Advanced Dental Care",
+  "description": "Professional dental care clinic website in Hebbal, Dasarahalli, Bengaluru offering root canal, dental cleaning, implants, braces, and whitening.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
