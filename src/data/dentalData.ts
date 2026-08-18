@@ -137,25 +137,29 @@ export const WHY_CHOOSE_DATA: WhyChooseItem[] = [
     id: 'patient-focused',
     title: 'Patient-Focused Care',
     description: 'Designed around clear communication and patient comfort.',
-    iconName: 'heart-handshake'
+    iconName: 'heart-handshake',
+    image: '/working-happy.jpeg'
   },
   {
     id: 'professional-approach',
     title: 'Professional Approach',
     description: 'Focused on providing clear information and appropriate dental care.',
-    iconName: 'shield'
+    iconName: 'shield',
+    image: '/place-1.jpeg'
   },
   {
     id: 'comfortable-experience',
     title: 'Comfortable Experience',
     description: 'A welcoming environment for patients throughout their visit.',
-    iconName: 'smile'
+    iconName: 'smile',
+    image: '/3rd pic.jpeg'
   },
   {
     id: 'clear-communication',
     title: 'Clear Communication',
     description: 'Helping patients understand their treatment options and next steps.',
-    iconName: 'message-circle'
+    iconName: 'message-circle',
+    image: '/commu-pic.jpeg'
   }
 ];
 

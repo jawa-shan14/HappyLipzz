@@ -52,8 +52,19 @@ export const WhyChooseUsSection: React.FC = () => {
             <div
               key={item.id}
               id={`why-card-${item.id}`}
-              className="bg-white rounded-3xl p-5 sm:p-8 border border-white/80 shadow-xs flex flex-col justify-start hover:shadow-md transition-all duration-200"
+              className="bg-white rounded-3xl p-5 sm:p-8 border border-white/80 shadow-xs flex flex-col justify-start hover:shadow-md transition-all duration-200 overflow-hidden"
             >
+              {item.image && (
+                <div className="w-full h-40 sm:h-48 mb-6 rounded-2xl overflow-hidden shadow-sm">
+                  <img
+                    src={item.image}
+                    alt={item.title}
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                  />
+                </div>
+              )}
+
               {/* Icon circle */}
               <div className="w-12 h-12 rounded-full bg-[#E5F5F6] flex items-center justify-center mb-6">
                 {getIcon(item.iconName)}

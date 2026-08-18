@@ -5,6 +5,7 @@ import { StatsBar } from './components/StatsBar';
 import { ServicesSection } from './components/ServicesSection';
 import { WhyChooseUsSection } from './components/WhyChooseUsSection';
 import { AboutSection } from './components/AboutSection';
+import { GallerySection } from './components/GallerySection';
 import { ReviewsSection } from './components/ReviewsSection';
 import { FaqSection } from './components/FaqSection';
 import { ServiceAreasSection } from './components/ServiceAreasSection';
@@ -76,6 +77,9 @@ export default function App() {
 
         {/* 5. About HappyLipzz Dental Care */}
         <AboutSection onOpenAboutModal={() => setAboutModalOpen(true)} />
+
+        {/* 5.5 Our Clinic in Action / Before & After */}
+        <GallerySection />
 
         {/* 6. Patient Reviews */}
         <ReviewsSection onOpenAllReviews={() => setReviewsModalOpen(true)} />

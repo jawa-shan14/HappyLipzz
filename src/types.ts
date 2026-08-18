@@ -14,6 +14,7 @@ export interface WhyChooseItem {
   title: string;
   description: string;
   iconName: 'heart-handshake' | 'shield' | 'smile' | 'message-circle';
+  image?: string;
 }
 
 export interface ReviewItem {
