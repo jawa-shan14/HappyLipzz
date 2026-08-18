@@ -21,7 +21,7 @@ export const Footer: React.FC<FooterProps> = ({
             <div className="flex items-center gap-3">
               <div className="w-11 h-11 rounded-full overflow-hidden shadow-xs border border-slate-200 bg-[#2E0854] shrink-0">
                 <img
-                  src="/new-happy-logo.jpeg"
+                  src="/new-happy-logo.png"
                   alt="HappyLipzz Logo"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
